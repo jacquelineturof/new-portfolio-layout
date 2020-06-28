@@ -27,17 +27,17 @@ const ProjectList = () => (
     <div className = { classes.Container }>
         <div className = { classes.Row }>
             <Project 
-                image = "/space_small.jpg"
+                image = "/space.webp"
                 alt = "outer space" 
                 label = "nasa viewer" 
                 href = "https://intense-falls-62836.herokuapp.com/" />
             <Project 
-                image = "/weather_small.jpg" 
+                image = "/weather.webp" 
                 alt = "lighting"
                 label = "forecast" 
                 href = "https://sleepy-lowlands-66314.herokuapp.com/" />
             <Project 
-                image = "/book_small.jpg" 
+                image = "/book.webp" 
                 label = "bookshelf" 
                 href = "https://turof-book-app.herokuapp.com/"
                 alt = "books" />
