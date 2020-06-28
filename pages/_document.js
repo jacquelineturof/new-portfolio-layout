@@ -24,6 +24,7 @@ class CustomDocument extends Document {
             as="font"
             crossOrigin=""
           />
+          <title>Jackie Turof Web Developer</title>
         </Head>
         <body>
           <Main />

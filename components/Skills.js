@@ -13,7 +13,7 @@ const Skills = () => (
         <div className = { classes.Container }>
             <Column>
                 <div className = { classes.IconContainer }>
-                    <img src = "/frontend1.svg" className = { classes.Icon } />
+                    <img src = "/frontend1.svg" className = { classes.Icon } alt = "client/browser" />
                 </div>
                 <h3 className = { classes.Label }>Frontend</h3>
                 <p className = { classes.Tag }>
@@ -32,7 +32,7 @@ const Skills = () => (
             </Column>
             <Column>
                 <div className = { classes.IconContainer }>
-                    <img src = "/backend.svg" className = { classes.Icon } />
+                    <img src = "/backend.svg" className = { classes.Icon } alt = "terminal" />
                 </div>
                 <h3 className = { classes.Label }>Backend</h3>
                     <p className = { classes.Tag }>
