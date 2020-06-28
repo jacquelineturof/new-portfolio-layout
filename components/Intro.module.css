@@ -1,0 +1,33 @@
+.Intro {
+    height: 70vh;
+    width: 100%;
+    background-color: #27BA90;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato-Regular', sans-serif;
+    color: white;
+}
+
+.Bio {
+    width: 60%;
+    text-align: center;
+    font-family: 'Lato-Light', sans-serif;
+}
+
+.Image {
+    height: 40%;
+}
+
+@media only screen and (max-width: 900px) {
+    .Bio {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .Intro {
+        height: 100vh;
+    }
+}

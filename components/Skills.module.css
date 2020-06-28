@@ -1,0 +1,78 @@
+.Background {
+    height: 100vh;
+    width: 100%;
+    background-color: #E4E5E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container {
+    height: 80%;
+    width: 80%;
+    border-radius: .6rem;
+    background-color: white;
+    display: flex;
+}
+
+.Column {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Lato-Regular', sans-serif;
+}
+
+.IconContainer {
+    height: 20%;
+    width: 50%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icon {
+    height: 90%;
+    width: 90%;
+}
+
+.Tag {
+    font-family: 'Lato-Light', sans-serif;
+    margin: 0;
+    color: #27BA90;
+}
+
+.SkillList {
+    list-style: none;
+    height: 40%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.Skill {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1100px) {
+    .Tag {
+        width: 80%;
+        text-align: center;
+    }
+
+    .Container {
+        width: 95%;
+    }
+  }
+
+@media only screen and (max-width: 700px) {
+    .SkillList {
+        height: 50%;
+    }
+}
