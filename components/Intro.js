@@ -4,7 +4,7 @@ import classes from './Intro.module.css'
 
 const Intro = () => (
     <div className = { classes.Intro }>
-        <img src = "/jackie.png" className = { classes.Image } />
+        <img src = "/jackie.webp" className = { classes.Image } alt = "JackieTurof" />
         <h1 className = { classes.Hello }>Hello, I'm Jackie Turof!</h1>
         <p className = { classes.Bio }>
             My coding journey began with classes at Oregon State University.
