@@ -11,9 +11,9 @@ const Header = () => (
     </header>
 )
 
-const Project = ({ image, label, href }) => (
+const Project = ({ image, label, href, alt }) => (
     <a className = { classes.ProjectCard } href = { href } _target = "blank">
-        <img src = { image } className = { classes.Image } />
+        <img src = { image } className = { classes.Image } alt = { alt } />
         <div className = { classes.Overlay }>
 
         </div>
@@ -26,9 +26,21 @@ const Project = ({ image, label, href }) => (
 const ProjectList = () => (
     <div className = { classes.Container }>
         <div className = { classes.Row }>
-            <Project image = "/space_small.jpg" label = "nasa viewer" href = "https://intense-falls-62836.herokuapp.com/" />
-            <Project image = "/weather_small.jpg" label = "forecast" href = "https://sleepy-lowlands-66314.herokuapp.com/" />
-            <Project image = "/book_small.jpg" label = "bookshelf" href = "https://turof-book-app.herokuapp.com/" />
+            <Project 
+                image = "/space_small.jpg"
+                alt = "outer space" 
+                label = "nasa viewer" 
+                href = "https://intense-falls-62836.herokuapp.com/" />
+            <Project 
+                image = "/weather_small.jpg" 
+                alt = "lighting"
+                label = "forecast" 
+                href = "https://sleepy-lowlands-66314.herokuapp.com/" />
+            <Project 
+                image = "/book_small.jpg" 
+                label = "bookshelf" 
+                href = "https://turof-book-app.herokuapp.com/"
+                alt = "books" />
         </div>
         {/* <div className = { classes.Row }>
 
