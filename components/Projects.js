@@ -26,9 +26,9 @@ const Project = ({ image, label, href }) => (
 const ProjectList = () => (
     <div className = { classes.Container }>
         <div className = { classes.Row }>
-            <Project image = "/space-min.jpg" label = "nasa viewer" href = "https://intense-falls-62836.herokuapp.com/" />
-            <Project image = "/weather-min.jpg" label = "forecast" href = "https://sleepy-lowlands-66314.herokuapp.com/" />
-            <Project image = "/book-min.jpg" label = "bookshelf" href = "https://turof-book-app.herokuapp.com/" />
+            <Project image = "/space_small.jpg" label = "nasa viewer" href = "https://intense-falls-62836.herokuapp.com/" />
+            <Project image = "/weather_small.jpg" label = "forecast" href = "https://sleepy-lowlands-66314.herokuapp.com/" />
+            <Project image = "/book_small.jpg" label = "bookshelf" href = "https://turof-book-app.herokuapp.com/" />
         </div>
         {/* <div className = { classes.Row }>
 
